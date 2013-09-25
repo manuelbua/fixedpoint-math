@@ -9,6 +9,7 @@ At that time, a more traditional-style implementation (#defines-based) was reall
 ### Usage
 
 The class itself predefines both the 24.8 and the 16.16 formats:
+
 	typedef FixedPoint< 8, LowPrecision,  LowPrecision> fixed8_t;
 	typedef FixedPoint<16, HighPrecision, HighPrecision> fixed16_t;
 
